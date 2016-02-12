@@ -893,7 +893,7 @@ function aprimappa () {
 	
 	//var refff = window.open("http://www.google.com/maps?q=220, Via Zoe Fontana, Roma", '_system');
 	//"http://maps.google.com/maps?daddr=41.929622,12.608878&dirflg=r"
-	window.open("google.navigation:q=41.909538,12.473455&mode=d" , '_system');
+	window.open("google.navigation:q=41.918288,12.502896&mode=d" , '_system');
 	
 	refff.addEventListener('exit', function (event) {
 		
