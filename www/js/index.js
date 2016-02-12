@@ -653,6 +653,8 @@ function checkpush() {
 	
 	setTimeout (function(){
 	
+	//$("#pushbutton").removeClass("pulsante3new").addClass("pulsante3");
+	
 	$(".spinner").show();
 	$.ajax({
 		   type:"GET",
@@ -673,6 +675,7 @@ function checkpush() {
 					  $("#pushbutton").removeClass("pulsante3").addClass("pulsante3new");
 					  return;
 					}
+					
 				  }
 			});
 
